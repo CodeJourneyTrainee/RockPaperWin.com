@@ -1,0 +1,125 @@
+*{
+  margin: 10px;
+  padding: 5px;
+  background-color: #f2f0eb;
+}
+h1{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.button-container {
+  text-align: center;
+  margin-top: 10px; 
+}
+strong{
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
+}
+#image{
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  background-color: black;
+  color: black;
+  cursor: pointer;
+}
+div{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px;
+ }
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  transition: 1s ease;
+  box-shadow: 0 4px 8px 0 lightblue;
+}
+ img:hover{
+transform: scale(0.8);
+transition: 1s ease;
+}
+.second{
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.user,.computer{
+  display: flex;
+  flex-direction: column;
+  box-shadow: none; 
+  border-radius: 25px; 
+  }
+  #userMove,#computerChoice{
+    /* margin: auto;
+    display: block; */
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 25px;
+  }
+  #userMove,#result,#computerChoice {
+  margin-top: 10px; 
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 1px;
+}
+#image {
+  margin-bottom: 20px;
+}
+#points,#points1{
+ text-align: center;
+ font-family: "Roboto", sans-serif;
+ font-size: 25px;
+ margin-top: 1px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  .button-container {
+    margin-top: 5px;
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .second {
+    flex-direction: column;
+    align-items: center;
+     }
+  .user, .computer {
+    width: 100%;
+    text-align: center;
+  }
+
+  #userMove, #result, #computerChoice {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #points, #points1 {
+    font-size: 18px;
+  }
+}
+
+
+
